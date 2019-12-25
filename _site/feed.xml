@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Sameerah Talafha</title>
+        <description>AI TECHNOLOGY; THE FUTURE IS GOING TO GET A LOT EASIER !</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 25 Dec 2019 15:04:58 -0600</pubDate>
+        <lastBuildDate>Wed, 25 Dec 2019 15:04:58 -0600</lastBuildDate>
+        <generator>Jekyll v4.0.0</generator>
+        
+            <item>
+                <title></title>
+                <description>&lt;p&gt;I am PhD student  working under the guidance of  professor &lt;a href=&quot;https://sites.google.com/site/banafsheh1rekabdar&quot; target=&quot;_blank&quot;&gt;Banafsheh Rekabdar&lt;/a&gt; in Artificial Intelligence and Robotics Research Lab at &lt;a href=&quot;https://www.siu.edu&quot; target=&quot;_blank&quot;&gt;SIU&lt;/a&gt;, working on  Text , image, and Video Generation with Deep Learning .&lt;/p&gt;
+
+&lt;p&gt;I am originally from &lt;a href=&quot;https://en.wikipedia.org/wiki/Jordan&quot; target=&quot;_blank&quot;&gt;Jordan&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have earned my bachelor’s at &lt;a href=&quot;http://ju.edu.jo&quot; target=&quot;_blank&quot;&gt;University of Jordan&lt;/a&gt; as a Computer Engineering major student . In  2015, I received by Masters degree in Computer Science from &lt;a href=&quot;https://www.asu.edu.jo&quot; target=&quot;_blank&quot;&gt;Applied Science University&lt;/a&gt;. There, I worked under   &lt;a href=&quot;https://scholar.google.com/citations?user=ynb9e7AAAAAJ&amp;amp;hl=en&quot; target=&quot;_blank&quot;&gt;Dr. Nedhal Al-Saiyd&lt;/a&gt; in problems related to in digital signal and image processing. Recently,  my partner’s student &lt;a href=&quot;https://umesh-timalsina.github.io/&quot; target=&quot;_blank&quot;&gt;Umesh Timalsina&lt;/a&gt;  and I worked under professor Wen chi Hou in databases and a novel &lt;a href=&quot;https://github.com/multijoin-hub/&quot; target=&quot;_blank&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;multi-join&lt;/code&gt;&lt;/a&gt; algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank You for reading!&lt;/em&gt;&lt;/p&gt;
+</description>
+                <pubDate>Mon, 25 Nov 2019 00:00:00 -0600</pubDate>
+                <link>http://localhost:4000/Changed-Theme</link>
+                <guid isPermaLink="true">http://localhost:4000/Changed-Theme</guid>
+                
+                <category>random</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>

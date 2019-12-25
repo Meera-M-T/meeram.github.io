@@ -1,0 +1,65 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site language
+lang: en-US
+
+# Site title
+title: "Sameerah Talafha"
+
+# A description of your site for meta tag, search engine results.
+description: "AI TECHNOLOGY; THE FUTURE IS GOING TO GET A LOT EASIER !"
+
+# The subpath of your site, e.g. /blog, for generating urls.
+baseurl:
+
+# The base hostname & protocol of your site for where absolute urls are needed.
+url: "https://sameerahTalafha.github.io"
+
+# Favicon
+favicon: images/favicon.png
+
+# Site navigation - each item must have a title and a url.
+navigation:
+  - text: Home
+    url: /home
+  - text: Publications
+    url: /publications
+  - text: Research
+    url: /research
+  - text: Teaching
+    url: /teaching
+
+# The shortname for your Disqus site to enable comments.
+disqus: sameerah-blog
+
+# Colors
+accent_color: '#2d72d9'
+
+# Site footer
+footer:
+  content: "&copy; Sameerah Talafha. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  has_social: true
+
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/page:num/'
+# Plugins
+plugins: [ jekyll-paginate ]
+
+
+# Permalinks
+permalink: /:title
+
+# Conversion
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
