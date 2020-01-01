@@ -42,9 +42,9 @@ disqus: sameerah-blog
 accent_color: '#2d72d9'
 
 # Site footer
-footer:
-  content: "&copy; Sameerah Talafha. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
-  has_social: true
+#footer:
+#  content: "&copy; Sameerah Talafha. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+#  has_social: true
 
 
 # http://jekyllrb.com/docs/pagination/
