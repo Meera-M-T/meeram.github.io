@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-description: ""
+title: " "
+description: An optional about page for Scriptor Jekyll theme
 comments:
 feature_image: images/random.jpg
 tags: [random, musings]
