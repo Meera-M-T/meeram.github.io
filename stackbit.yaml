@@ -207,7 +207,7 @@ models:
     type: page
     label: Tags Page
     template: tags
-    file: tags.md
+    file: teaching.md
     hideContent: true
     singleInstance: true
     fields:
