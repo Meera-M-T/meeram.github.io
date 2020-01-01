@@ -1,8 +1,11 @@
----
-layout: teaching
+----
+layout: page
 title: Teaching
-description: A teaching page for Scriptor Jekyll theme
+description: An optional about page for Scriptor Jekyll theme
+feature_image: images/
 ---
+
+
 
 I was working as  Teaching Assistant (TA)  in [SIU](https://www.siu.edu){:target="_blank"} for these courses: 
 
