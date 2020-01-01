@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ""
-description: "A graphic designer is a professional within the graphic design and graphic arts industry."
-date: 
+title: OK. Let’s Talk About Moral Bankruptcy
+description: ""
 comments: true
 feature_image: images/random.jpg
-tags: 
+tags: [random, musings]
 ---
 
 I am PhD student  working under the guidance of  professor [Banafsheh Rekabdar](https://sites.google.com/site/banafsheh1rekabdar){:target="_blank"} in Artificial Intelligence and Robotics Research Lab at [SIU](https://www.siu.edu){:target="_blank"}, working on  Text , image, and Video Generation with Deep Learning . 
