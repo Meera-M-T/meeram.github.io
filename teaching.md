@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Tags
+title: 
 description: A teaching page for Scriptor Jekyll theme
 ---
 

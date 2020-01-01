@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About Me
+title: Puplication
 header-includes:
 description: An optional about page for Scriptor Jekyll theme
 feature_image: images/
 ---
-\usepackage[dvipsnames]{xcolor}
 
 
 [1] Sameerah Talafha, and Banafsheh Rekabdar. "Arabic Poem Generation with Hierarchical Recurrent Attentional Network." 2019 IEEE 13th International Conference on Semantic Computing (ICSC). IEEE, 2019. (Puplished)
