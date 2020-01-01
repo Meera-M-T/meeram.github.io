@@ -1,7 +1,7 @@
 ----
-layout: teaching
+layout: page
 title: Teaching
-description: 
+description: An optional about page for Scriptor Jekyll theme
 feature_image: 
 ---
 
