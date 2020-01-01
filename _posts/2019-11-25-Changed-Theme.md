@@ -2,7 +2,7 @@
 layout: post
 title: 
 description: ""
-comments: true
+comments:
 feature_image: images/random.jpg
 tags: [random, musings]
 ---
