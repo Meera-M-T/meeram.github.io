@@ -8,4 +8,4 @@ feature_image:
 
 [2] Sameerah Talafha, Banafsheh Rekabdar, Chinwe Pamela Ekenna, and Christos Mousas. "Attentional Adversarial Variational Video Generation via Decomposing Motion and Content" 2020 IEEE 14th International Conference on Semantic Computing (ICSC). IEEE, 2019. (Accepted)
 
-[3] Talafha, Sameerah, and Banafsheh Rekabdar. "Arabic Poem Generation incorporating deep learning and Phonetic CNN-subword embedding models"  International Journal of Robotic Computing (IJRC), 2019. (Accepted)
+[3] Sameerah Talafha, and Banafsheh Rekabdar. "Arabic Poem Generation incorporating deep learning and Phonetic CNN-subword embedding models"  International Journal of Robotic Computing (IJRC), 2019. (Accepted)
