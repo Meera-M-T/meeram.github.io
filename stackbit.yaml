@@ -179,7 +179,7 @@ models:
         type: image
         label: Feature image
         description: The featured image of the post.
-      - name: tags
+      - name: teaching
         type: list
         label: Teaching
         items:
@@ -203,10 +203,11 @@ models:
         type: image
         label: Feature image
         description: The featured image of the page.
-  tags:
+
+  teaching:
     type: page
-    label: Tags Page
-    template: tags
+    label: Teaching Page
+    template: teaching
     file: teaching.md
     hideContent: true
     singleInstance: true
@@ -214,12 +215,17 @@ models:
       - type: string
         name: title
         label: Title
-        description: The title of the teaching page.
+        description: The title of the page.
         required: true
       - type: string
         name: description
         label: Description
         description: The description used in meta tags.
+      - name: feature_image
+        type: image
+        label: Feature image
+        description: The featured image of the page.
+
   notfound:
     type: page
     label: 404 Page
