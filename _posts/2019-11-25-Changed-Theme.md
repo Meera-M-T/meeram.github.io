@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 
-description: 
-comments:
+description: ""
+comments: true
 feature_image: images/random.jpg
-tags: 
+tags: [random, musings]
 ---
 
 I am PhD student  working under the guidance of  professor [Banafsheh Rekabdar](https://sites.google.com/site/banafsheh1rekabdar){:target="_blank"} in Artificial Intelligence and Robotics Research Lab at [SIU](https://www.siu.edu){:target="_blank"}, working on  Text , image, and Video Generation with Deep Learning . 
