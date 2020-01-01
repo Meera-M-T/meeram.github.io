@@ -179,7 +179,7 @@ models:
         type: image
         label: Feature image
         description: The featured image of the post.
-      - name: teaching
+      - name: tags
         type: list
         label: Teaching
         items:
@@ -203,10 +203,10 @@ models:
         type: image
         label: Feature image
         description: The featured image of the page.
-  teaching:
+  tags:
     type: page
-    label: Teaching Page
-    template: teaching
+    label: Tags Page
+    template: tags
     file: teaching.md
     hideContent: true
     singleInstance: true
