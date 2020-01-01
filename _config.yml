@@ -26,7 +26,7 @@ favicon: images/favicon.png
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: /home
+    url: /
   - text: Publications
     url: /publications
   - text: Research
