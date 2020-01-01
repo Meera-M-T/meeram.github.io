@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OK. Let’s Talk About Moral Bankruptcy
+title: 
 description: ""
 comments: true
 feature_image: images/random.jpg
