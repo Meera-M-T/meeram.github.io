@@ -206,8 +206,8 @@ models:
 
   teaching:
     type: page
-    label: Teaching Page
-    template: teaching
+    label: Page
+    template: page
     file: teaching.md
     hideContent: true
     singleInstance: true
