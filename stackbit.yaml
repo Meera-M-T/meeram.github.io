@@ -210,7 +210,7 @@ models:
     template: page
     file: teaching.md
     hideContent: true
-    singleInstance: true
+    singleInstance: true    
     fields:
       - type: string
         name: title
@@ -221,10 +221,6 @@ models:
         name: description
         label: Description
         description: The description used in meta tags.
-      - name: feature_image
-        type: image
-        label: Feature image
-        description: The featured image of the page.
 
   notfound:
     type: page
