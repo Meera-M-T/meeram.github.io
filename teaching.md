@@ -1,10 +1,10 @@
 ---
-layout: teaching
+layout: tags
 title: Teaching
 description: A teaching page for Scriptor Jekyll theme
 ---
 
-I was working as  Teaching Assistant (TA)  in SIU  [SIU](https://www.siu.edu){:target="_blank"} for these courses: 
+I was working as  Teaching Assistant (TA)  in [SIU](https://www.siu.edu){:target="_blank"} for these courses: 
 
 
 * CS-215-001 - Discrete Mathematics (undergrad)
