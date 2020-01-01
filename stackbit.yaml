@@ -179,7 +179,7 @@ models:
         type: image
         label: Feature image
         description: The featured image of the post.
-      - name: tags
+      - name: teaching
         type: list
         label: Teaching
         items:
