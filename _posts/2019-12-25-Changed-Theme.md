@@ -7,7 +7,7 @@ feature_image: images/random.jpg
 tags: 
 ---
 
-I am PhD student  working under the guidance of  professor [Banafsheh Rekabdar](https://sites.google.com/site/banafsheh1rekabdar){:target="_blank"} in Artificial Intelligence and Robotics Research Lab at [SIU](https://www.siu.edu){:target="_blank"}, working on  Text , image, and Video Generation with Deep Learning . 
+I am PhD student  working under the guidance of  professor [Banafsheh Rekabdar](https://sites.google.com/site/banafsheh1rekabdar){:target="_blank"} in Artificial Intelligence and Robotics Research Lab at [SIU](https://www.siu.edu){:target="_blank"}, working on  Text , image, and Video Generation with Deep Learning. Recently, I have used spiking neural networks to improve the variational autoencoder model to generate the high-quality images.
 
 I am originally from [Jordan](https://en.wikipedia.org/wiki/Jordan){:target="_blank"}. 
 
