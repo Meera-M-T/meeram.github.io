@@ -10,4 +10,4 @@ feature_image:
 
 [3] Talafha, Sameerah, Banafsheh Rekabdar, Christos Mousas, and Chinwe Ekenna. "Biologically Inspired Sleep Algorithm for Variational Auto-Encoders." In International Symposium on Visual Computing, pp. 54-67. Springer, Cham, 2020.
 
-[1] Talafha, Sameerah, and Banafsheh Rekabdar. "Poetry Generation Model via Deep learning incorporating Extended Phonetic and Semantic Embeddings." In 2021 IEEE 15th International Conference on Semantic Computing (ICSC). IEEE, 2021.(Accepted)
+[4] Talafha, Sameerah, and Banafsheh Rekabdar. "Poetry Generation Model via Deep learning incorporating Extended Phonetic and Semantic Embeddings." In 2021 IEEE 15th International Conference on Semantic Computing (ICSC). IEEE, 2021.(Accepted)
