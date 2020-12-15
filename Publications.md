@@ -1,6 +1,6 @@
 ---
 layout: page
-title: publications
+title: Publications
 description: An optional about page for Scriptor Jekyll theme
 feature_image:
 ---
