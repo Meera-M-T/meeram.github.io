@@ -81,7 +81,7 @@ head(ins)
 
 ```
 
-images/1.png
+![alt text](images/1.png)
 
 ### Transform the Response
 
@@ -94,7 +94,7 @@ library(car)
 summary(ans)
 ```
 
-images/2.png
+![alt text](images/2.png)
 
 
 ```{r}
@@ -108,7 +108,7 @@ ins_testing=ins[sample(1:1338,0.10*nrow(ins)),]
 hist(ins_testing$T_charges, breaks = 30)
 ```
 
-images/3.png
+![alt text](images/3.png)
 
 ```{r}
 linear_model1=lm(T_charges~sex+bmi+child_cat+smoker_num*bmi30+region+T_age2, data=ins_training)
@@ -116,7 +116,7 @@ wts <- 1/fitted(lm(abs(ins_training$T_charges-ins_training$pred_ins) ~ predict(l
 WLS_linear_model1 <- lm(T_charges~sex+bmi+child_cat+smoker_num*bmi30+region+T_age2,data=ins_training, weights=wts)
 summary(WLS_linear_model1 )
 ```
-images/4.png
+![alt text](images/4.png)
 
 ```{r}
 #RMSE
@@ -127,7 +127,8 @@ print(RMSE(ins_training$T_charges, ins_training$pred_ins))
 print("RMSE-Testing :")
 print(RMSE(ins_testing$T_charges, ins_testing$pred_ins))
 ```
-images/5.png
+
+![alt text](images/5.png)
 
 ```{r}
 #MSE
@@ -137,7 +138,8 @@ print("MSE-Testing :")
 print(mean(ins_testing$T_charges-ins_testing$pred_ins)^2)
 ```
 
-images/6.png
+
+![alt text](images/6.png)
 
 
 ```{r}
@@ -154,7 +156,7 @@ sqrt(sum((predict(WLS_linear_model1, ins_testing)-ins_testing$T_charges)^2)/
 
 ```
 
-images/7.png
+![alt text](images/7.png)
 
 ```{r}
 
@@ -166,7 +168,8 @@ abline(lm(y~x), col="purple", lty=2)
 loessLine(x,y,col="blue",log.x = FALSE, log.y = FALSE, smoother.args=list())
 
 ```
-images/8.png
+
+![alt text](images/8.png)
 
 
 ### Non-normality
@@ -177,13 +180,13 @@ d<-density((((predict(WLS_linear_model1, ins_testing)-ins_testing$T_charges))))
 plot(d,main='Residual KDE Plot',xlab='Residual value')
 ```
 
-images/9.png
+![alt text](images/9.png)
 
 ```{r}
 d=(((predict(WLS_linear_model1, ins_testing)-ins_testing$T_charges)))
 plot(ecdf(d))
 ```
-images/10.png
+![alt text](images/10.png)
 
 
 ```{r}
@@ -200,7 +203,7 @@ layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
 plot(WLS_linear_model1)
 ```
 
-images/12.png
+![alt text](images/12.png)
 
 
 ### Influential Observations
@@ -209,8 +212,10 @@ images/12.png
 influencePlot(WLS_linear_model1)
 
 ```
-images/14.png
-images/15.png
+
+![alt text](images/14.png)
+
+![alt text](images/15.png)
 
 
 ### Non-independence of Errors
@@ -220,13 +225,11 @@ images/15.png
 durbinWatsonTest(WLS_linear_model1)
 ```
 
-images/16.png
+![alt text](images/16.png)
 
 
 ```{r,fig.height=8,fig.width=8}
 hist(ins_testing$pred_ins, breaks = 30)
 ```
 
-images/13.png
-
-
+![alt text](images/13.png)
