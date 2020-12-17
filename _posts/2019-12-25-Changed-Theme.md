@@ -12,7 +12,7 @@ tags:
 
 
 
-## Our goal 
+## Our Goal 
 
 What is the "Best Fitting Line" for my dataset "insurance.csv"?.  I moved along most of the necessary steps in order to execute a complete and careful finding best fit model workflow.I did a whole changes and transformation to the original data as imported from the "csv". I seperated my dataset for training and testing set. Separating data into training and testing sets is an important part of evaluating models. Typically, when you separate a data set into a training set and testing set, most of the data is used for training, and a smaller portion of the data is used for testing. Analysis Services randomly samples the data to help ensure that the testing and training sets are similar. By using similar data for training and testing, you can minimize the effects of data discrepancies and better understand the characteristics of the model. After a model has been processed by using the training set, you test the model by making predictions against the test set. Because the data in the testing set already contains known values for the attribute that you want to predict, it is easy to determine whether the model's guesses are correct.
 
@@ -81,7 +81,7 @@ head(ins)
 
 ```
 
-![alt text](images/1.png)
+images/1.png
 
 ### Transform the Response
 
@@ -94,7 +94,7 @@ library(car)
 summary(ans)
 ```
 
-![alt text](images/2.png)
+images/2.png
 
 
 ```{r}
@@ -108,7 +108,7 @@ ins_testing=ins[sample(1:1338,0.10*nrow(ins)),]
 hist(ins_testing$T_charges, breaks = 30)
 ```
 
-![alt text](images/3.png)
+images/3.png
 
 ```{r}
 linear_model1=lm(T_charges~sex+bmi+child_cat+smoker_num*bmi30+region+T_age2, data=ins_training)
@@ -116,7 +116,7 @@ wts <- 1/fitted(lm(abs(ins_training$T_charges-ins_training$pred_ins) ~ predict(l
 WLS_linear_model1 <- lm(T_charges~sex+bmi+child_cat+smoker_num*bmi30+region+T_age2,data=ins_training, weights=wts)
 summary(WLS_linear_model1 )
 ```
-![alt text](images/4.png)
+images/4.png
 
 ```{r}
 #RMSE
@@ -127,8 +127,7 @@ print(RMSE(ins_training$T_charges, ins_training$pred_ins))
 print("RMSE-Testing :")
 print(RMSE(ins_testing$T_charges, ins_testing$pred_ins))
 ```
-
-![alt text](images/5.png)
+images/5.png
 
 ```{r}
 #MSE
@@ -138,8 +137,7 @@ print("MSE-Testing :")
 print(mean(ins_testing$T_charges-ins_testing$pred_ins)^2)
 ```
 
-
-![alt text](images/6.png)
+images/6.png
 
 
 ```{r}
@@ -156,7 +154,7 @@ sqrt(sum((predict(WLS_linear_model1, ins_testing)-ins_testing$T_charges)^2)/
 
 ```
 
-![alt text](images/7.png)
+images/7.png
 
 ```{r}
 
@@ -168,8 +166,7 @@ abline(lm(y~x), col="purple", lty=2)
 loessLine(x,y,col="blue",log.x = FALSE, log.y = FALSE, smoother.args=list())
 
 ```
-
-![alt text](images/8.png)
+images/8.png
 
 
 ### Non-normality
@@ -180,13 +177,13 @@ d<-density((((predict(WLS_linear_model1, ins_testing)-ins_testing$T_charges))))
 plot(d,main='Residual KDE Plot',xlab='Residual value')
 ```
 
-![alt text](images/9.png)
+images/9.png
 
 ```{r}
 d=(((predict(WLS_linear_model1, ins_testing)-ins_testing$T_charges)))
 plot(ecdf(d))
 ```
-![alt text](images/10.png)
+images/10.png
 
 
 ```{r}
@@ -203,7 +200,7 @@ layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
 plot(WLS_linear_model1)
 ```
 
-![alt text](images/12.png)
+images/12.png
 
 
 ### Influential Observations
@@ -212,10 +209,8 @@ plot(WLS_linear_model1)
 influencePlot(WLS_linear_model1)
 
 ```
-
-![alt text](images/14.png)
-
-![alt text](images/15.png)
+images/14.png
+images/15.png
 
 
 ### Non-independence of Errors
@@ -225,13 +220,13 @@ influencePlot(WLS_linear_model1)
 durbinWatsonTest(WLS_linear_model1)
 ```
 
-![alt text](images/16.png)
+images/16.png
 
 
 ```{r,fig.height=8,fig.width=8}
 hist(ins_testing$pred_ins, breaks = 30)
 ```
 
-![alt text](images/13.png)
+images/13.png
 
 
