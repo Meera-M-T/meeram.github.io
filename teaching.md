@@ -11,4 +11,4 @@ I am a Teaching Assistant (TA)  in [SIU](https://www.siu.edu){:target="_blank"} 
 
 * CS-436 -- Artificial Intelligence I (undergrad and grad level)
 
-* CS-425/CS-591 --  Virtual and Cloud Computing (undergrad and grad level)
+* CS-425/CS-591 --   Virtualization and Cloud Computing (undergrad and grad level)
