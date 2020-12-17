@@ -228,16 +228,15 @@ durbinWatsonTest(WLS_linear_model1)
 ![alt text](images/16.png)
 
 
-```{r,fig.height=8,fig.width=8}
+```{r}
 hist(ins_testing$pred_ins, breaks = 30)
 ```
 
 ![alt text](images/13.png)
 
-```{r,fig.width=12, fig.height=8}
+```{r}
 infIndexPlot(WLS_linear_model1,vars=c("Cook", "Studentized", "Bonf", "hat"),
     id=TRUE, grid=TRUE, main="Diagnostic Plots",col="blue")
-
 ```
 
 
