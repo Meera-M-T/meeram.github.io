@@ -27,12 +27,13 @@ favicon: images/favicon.png
 navigation:
   - text: Home
     url: /
+  - text: About 
+    url: /about  
   - text: Publications
     url: /publications
   - text: Teaching
     url: /teaching
-  - text: About 
-    url: /about
+
 
 
 # The shortname for your Disqus site to enable comments.
