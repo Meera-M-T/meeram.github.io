@@ -9,7 +9,7 @@
 lang: en-US
 
 # Site title
-title: "Sameerah Talafha"
+title: "Meera-M-T"
 
 # A description of your site for meta tag, search engine results.
 description: "The goal is to turn data into information, and information into insight !"
@@ -18,7 +18,7 @@ description: "The goal is to turn data into information, and information into in
 baseurl:
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://sameerahTalafha.github.io"
+url: "http://meeram.github.io/"
 
 # Favicon
 favicon: images/favicon.png
@@ -37,7 +37,7 @@ navigation:
 
 
 # The shortname for your Disqus site to enable comments.
-disqus: sameerah-blog
+disqus: Meera-M-T-blog
 
 # Colors
 accent_color: '#2d72d9'
