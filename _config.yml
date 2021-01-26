@@ -12,7 +12,7 @@ lang: en-US
 title: "Meera-M-T"
 
 # A description of your site for meta tag, search engine results.
-description: "Nothing in life is to be feared, it is only to be understood (<-- two spaces) Marie Curie"
+description: "Nothing in life is to be feared, it is only to be understood <br/> Marie Curie"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl:
