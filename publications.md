@@ -12,5 +12,5 @@ feature_image:
 
 [4] **Sameerah Talafha** and Banafsheh Rekabdar, Arabic poem generation incorporating deep learning and phonetic cnn subword embedding models, *International Journal of Robotic Computing*, 64–91 (2019)
 
-[5] **Sameerah Talafha**, Banafsheh Rekabdar, Poetry Generation Model via Deep learning incorporating Extended Phonetic and Semantic Embeddings, in 2021 *IEEE 15th International Conference on Semantic Computing (ICSC)* (IEEE, 2021) \textbf {Accepted}
+[5] **Sameerah Talafha**, Banafsheh Rekabdar, Poetry Generation Model via Deep learning incorporating Extended Phonetic and Semantic Embeddings, in 2021 *IEEE 15th International Conference on Semantic Computing (ICSC)* (IEEE, 2021) **(Accepted)**
 
