@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 description: An optional about page for Scriptor Jekyll theme
-feature_image: images/thumbnail.jpeg
+feature_image: images/MG_4636.jpg
 tags: 
 ---
 
