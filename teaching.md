@@ -12,7 +12,7 @@ I am a Teaching Assistant (TA)  in [SIU](https://www.siu.edu){:target="_blank"} 
 logic and proof, sets and functions, induction and recursion, number theory (dealing mostly with divisibility of natural numbers), counting and probability, and basic theory of directed graphs.
 
 ## Artificial Intelligence I (CS-436) (undergrad and grad level)
-###### Topics include::
+###### Topics include:
 Search and heuristics, problem reduction, Predicate calculus, automated theorem proving, Knowledge representation, Applications of artificial intelligence, Parallel processing in artificial intelligence.
 
 ## Virtualization and Cloud Computing (CS-425/CS-591) (undergrad and grad level)
